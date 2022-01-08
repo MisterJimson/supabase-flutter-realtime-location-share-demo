@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.supabase.supabase_demo">
+    package="com.jrai.realtime_location_share">
    <application
-        android:label="Supabase Demo"
+        android:label="Realtime Location Share"
         android:icon="@mipmap/launcher_icon"
         android:allowBackup="false"
         android:fullBackupContent="false">
@@ -39,8 +39,8 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <!-- TODO: Add your SCHEME here -->
-                <data android:scheme="io.supabase.flutterdemo" />
+                <data android:scheme="com.jrai.realtimelocationshare"
+                      android:host="login-callback" />
             </intent-filter>
         </activity>
         <!-- Don't delete the meta-data below.

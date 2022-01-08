@@ -1,4 +1,4 @@
-package io.supabase.supabase_demo
+package com.jrai.realtime_location_share
 
 import io.flutter.embedding.android.FlutterActivity
 

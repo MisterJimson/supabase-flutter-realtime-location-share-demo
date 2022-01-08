@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Supabase Demo',
+      title: 'Realtime Location Share',
       theme: ThemeData.dark(),
       initialRoute: '/',
       routes: <String, WidgetBuilder>{
